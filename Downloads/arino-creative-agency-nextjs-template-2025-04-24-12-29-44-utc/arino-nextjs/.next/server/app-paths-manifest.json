@@ -1,0 +1,4 @@
+{
+  "/portfolio/[portfolioDetailsId]/page": "app/portfolio/[portfolioDetailsId]/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
+}

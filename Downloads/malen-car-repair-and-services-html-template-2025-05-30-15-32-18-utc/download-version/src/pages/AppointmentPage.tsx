@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, Clock, MapPin, Phone, Mail, Car, Wrench, CheckCircle } from 'lucide-react';
+import { Clock, Phone, Mail, MapPin, CheckCircle, AlertCircle } from 'lucide-react';
 import SEOHead from '../components/common/SEOHead';
 
 const AppointmentPage: React.FC = () => {

@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, ReactNode } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface AccessibilityWrapperProps {
-  children: ReactNode;
+  children: React.ReactNode;
   role?: string;
   'aria-label'?: string;
   'aria-describedby'?: string;
@@ -103,8 +103,6 @@ const AccessibilityWrapper: React.FC<AccessibilityWrapperProps> = ({
 
 // Skip to Content Link Component
 export const SkipToContent: React.FC = () => {
-  const mainContentRef = useRef<HTMLElement>(null);
-
   const handleSkipClick = (e: React.MouseEvent) => {
     e.preventDefault();
     const mainContent = document.getElementById('main-content');

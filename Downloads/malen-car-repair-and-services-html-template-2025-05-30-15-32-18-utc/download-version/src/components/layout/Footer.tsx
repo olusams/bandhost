@@ -6,10 +6,13 @@ import {
   Mail, 
   MapPin, 
   Clock,
-  Shield,
+  Star,
   Award,
-  Users,
-  Star
+  Facebook,
+  Twitter,
+  Instagram,
+  Linkedin,
+  Youtube
 } from 'lucide-react';
 import { siteConfig } from '../../data/siteConfig';
 
@@ -291,7 +294,11 @@ const Footer: React.FC = () => {
                   whileTap={{ scale: 0.95 }}
                   aria-label={social.label}
                 >
-                  <social.icon className="w-5 h-5" />
+                  {platform === 'facebook' && <Facebook className="w-5 h-5" />}
+                  {platform === 'twitter' && <Twitter className="w-5 h-5" />}
+                  {platform === 'instagram' && <Instagram className="w-5 h-5" />}
+                  {platform === 'linkedin' && <Linkedin className="w-5 h-5" />}
+                  {platform === 'youtube' && <Youtube className="w-5 h-5" />}
                 </motion.a>
               ))}
             </motion.div>

@@ -1,0 +1,62 @@
+import React, { useState, useEffect } from 'react';
+import Head from 'next/head';
+import Image from 'next/image';
+import { Parallax } from "react-parallax";
+import Link from 'next/link';
+import Navbar from '../../component/layout/Navbar';
+import Preloader from '../../component/layout/preloader';
+import Section1 from '../../component/section-pages/section-1';
+import Footer from '../../component/section-pages/footer';
+import ScrollToTopBtn from '../../component/layout/ScrollToTop';
+
+const image1 ="../../img/background/9.webp";
+
+export default function Home() {
+  useEffect(() => {
+      if (typeof window !== 'undefined') {
+          const loader = document.getElementById('mainpreloader');
+          if (loader)
+          setTimeout(() => {
+            loader.classList.add("fadeOut");
+            loader.style.display = 'none';
+          }, 600)
+      }
+    }, []);
+  return (
+    <>
+    <Head>
+      <title>Playhost - Game Hosting Website Template</title>
+      <link rel="icon" href="../img/icon.png" type="image/gif" sizes="16x16"/>
+    </Head>
+
+    {/* LOADER */}
+    <div id='mainpreloader'>
+      <Preloader/>
+    </div>
+
+    {/* MENU */}
+    <div className="home dark-scheme">
+      <header id="header-wrap">
+         <Navbar />
+      </header>
+
+      {/* section */}
+      <section className="no-bottom tex-center">
+        <div className="container">
+          <div className="col-lg-12">
+              <div className="subtitle mb-3" data-aos="fade-up">Incredibly features</div>
+              <h2 className="mb20" data-aos="fade-up" data-aos-delay="200"><span className="text-gradient">Premium</span> Game Server</h2>
+          </div>
+        </div>
+        <Section1/>
+      </section>
+
+      {/* footer */}
+      <Footer/>
+
+
+    </div>
+    <ScrollToTopBtn />
+    </>
+  )
+}

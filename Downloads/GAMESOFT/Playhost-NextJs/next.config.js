@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
   output: 'export',
-  distDir: 'out',
+  distDir: '_static',
   webpack: (config, { webpack }) => {
     config.plugins.push(
       new webpack.ProvidePlugin({

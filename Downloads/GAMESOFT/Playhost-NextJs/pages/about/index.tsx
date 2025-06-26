@@ -10,13 +10,6 @@ import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
 
-import image1 from "../../public/img/background/subheader-about.webp";
-import image2 from "../../public/img/misc/building.webp";
-import image3 from "../../public/img/misc/girl-ai.webp";
-import image4 from "../../public/img/team/1.webp";
-import image5 from "../../public/img/team/3.webp";
-import image6 from "../../public/img/team/4.webp";
-
 const GlobalStyles = createGlobalStyle`
 
 `;
@@ -54,7 +47,7 @@ export default function Home() {
       </header>
 
       {/* section */}
-      <Parallax className="" bgImage={image1.src} strength={5}>  
+      <Parallax className="" bgImage="/img/background/subheader-about.webp" strength={5}>  
         <section className="no-bg">
           <div className="container z-9">
               <div className="row">
@@ -75,8 +68,8 @@ export default function Home() {
               <div className="row align-items-center gh-5">
                   <div className="col-lg-6 position-relative">
                       <div className="images-deco-1">
-                          <Image src={image2} className="d-img-1" alt=""/>
-                          <Image src={image3} className="d-img-2" alt=""/>
+                          <Image src="/img/misc/building.webp" width={500} height={300} className="d-img-1" alt=""/>
+                          <Image src="/img/misc/girl-ai.webp" width={300} height={400} className="d-img-2" alt=""/>
                           <div className="d-img-3 bg-color"></div>
                       </div>
                   </div>
@@ -137,7 +130,7 @@ export default function Home() {
                               </div>
                           </div>                                  
                           <div className="fpw-overlay-btm"></div>
-                          <Image src={image4} className="fp-image img-fluid" alt=""/>
+                          <Image src="/img/team/1.webp" width={300} height={300} className="fp-image img-fluid" alt=""/>
                       </div>
 
                       <h4>Marcus "Pixel" Thompson</h4>
@@ -160,7 +153,7 @@ export default function Home() {
                               </div>
                           </div>                                  
                           <div className="fpw-overlay-btm"></div>
-                          <Image src={image5} className="fp-image img-fluid" alt=""/>
+                          <Image src="/img/team/3.webp" width={300} height={300} className="fp-image img-fluid" alt=""/>
                       </div>
 
                       <h4>Sarah "Viper" Chen</h4>
@@ -183,7 +176,7 @@ export default function Home() {
                               </div>
                           </div>                                  
                           <div className="fpw-overlay-btm"></div>
-                          <Image src={image6} className="fp-image img-fluid" alt=""/>
+                          <Image src="/img/team/4.webp" width={300} height={300} className="fp-image img-fluid" alt=""/>
                       </div>
 
                       <h4>Alex "TechWiz" Rodriguez</h4>

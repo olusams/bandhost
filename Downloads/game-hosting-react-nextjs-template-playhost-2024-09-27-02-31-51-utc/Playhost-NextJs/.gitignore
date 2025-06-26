@@ -1,0 +1,23 @@
+# Ignore everything
+/*
+
+# But not these files/folders
+!Playhost-NextJs/
+!.gitignore
+
+# Ignore node_modules and build output everywhere
+Playhost-NextJs/node_modules/
+Playhost-NextJs/.next/
+Playhost-NextJs/.env
+Playhost-NextJs/.env.*
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore system/user folders
+AppData/
+Users/ 

@@ -10,7 +10,7 @@ import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
 
-const image1 ="../../img/background/subheader-about.webp";
+import image1 from "../../public/img/background/subheader-about.webp";
 import image2 from "../../public/img/misc/building.webp";
 import image3 from "../../public/img/misc/girl-ai.webp";
 import image4 from "../../public/img/team/1.webp";
@@ -54,7 +54,7 @@ export default function Home() {
       </header>
 
       {/* section */}
-      <Parallax className="" bgImage={image1} strength={5}>  
+      <Parallax className="" bgImage={image1.src} strength={5}>  
         <section className="no-bg">
           <div className="container z-9">
               <div className="row">

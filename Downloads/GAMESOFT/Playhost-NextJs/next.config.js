@@ -6,6 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  assetPrefix: '',
+  basePath: '',
   webpack: (config, { webpack }) => {
     config.plugins.push(
       new webpack.ProvidePlugin({

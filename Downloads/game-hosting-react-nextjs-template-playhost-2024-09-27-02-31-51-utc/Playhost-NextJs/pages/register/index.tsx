@@ -5,6 +5,7 @@ import { Parallax } from "react-parallax";
 import { Link } from "react-scroll";
 import Navbar from '../../component/layout/Navbar';
 import Preloader from '../../component/layout/preloader';
+import Blog from '../../component/section-pages/Blog-no-title';
 import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
@@ -88,7 +89,7 @@ export default function Home() {
                                             <div className="col-md-6">
                                                 <div className="field-set">
                                                     <label>Phone:</label>
-                                                    <input type='text' name='phone' id='phone' className="form-control" placeholder="+44 (0) 20 7946 0958"/>
+                                                    <input type='text' name='phone' id='phone' className="form-control"/>
                                                 </div>
                                             </div>
 

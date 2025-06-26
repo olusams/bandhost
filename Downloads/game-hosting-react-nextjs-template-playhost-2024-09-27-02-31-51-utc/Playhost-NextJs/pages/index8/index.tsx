@@ -5,14 +5,19 @@ import { Parallax } from "react-parallax";
 import Link from 'next/link';
 import Navbar from '../../component/layout/Navbar';
 import Preloader from '../../component/layout/preloader';
-import Section1 from '../../component/section-pages/section-1';
+import SwiperComponent from '../../component/section-pages/slider-home-3';
+import Section1 from '../../component/section-pages/section-1-notitle-noicon';
 import Sectiontesti from '../../component/section-pages/section-testimonial';
+import Collection from '../../component/section-pages/Collection-notitle';
+import Help from '../../component/section-pages/help-no-title';
+import Payment from '../../component/section-pages/Payment';
 import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
 
 import Aos from 'aos';
 import "aos/dist/aos.css";
+
 
 const image1 ="../../img/background/bg-grid-2.webp";
 const image2 ="../../img/background/space.webp";
@@ -105,10 +110,14 @@ export default function Home() {
          <Navbar />
       </header>
 
-      {/* section */}
-      <section className="py-4">
-        <Section1/>
-      </section>
+      {/* slider */}
+      <Parallax className="" bgImage={image1} strength={50}>  
+        <div className="de-gradient-edge-top"></div>
+        <div className="de-gradient-edge-bottom"></div>
+        <section className="py-4 no-bg">
+          <SwiperComponent />
+        </section>
+      </Parallax>
 
       {/* section */}
       <section className="tex-center">
@@ -157,8 +166,62 @@ export default function Home() {
       </section>
 
       {/* section */}
+      <Parallax className="" bgImage={image2} strength={300}>  
+        <div className="de-gradient-edge-top"></div>
+        <div className="de-gradient-edge-bottom"></div>
+        <section className="no-bg">
+        <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                  <div className="subtitle mb20" 
+                  data-aos="fade-up"
+                  data-aos-delay="0"
+                  data-aos-duration="600"
+                  data-aos-easing="ease"
+                  data-aos-once="true">Most complete</div>
+                  <h2 className="wow fadeInUp"
+                  data-aos="fade-up"
+                  data-aos-delay="150"
+                  data-aos-duration="600"
+                  data-aos-easing="ease"
+                  data-aos-once="true">Game <span className="text-gradient">Collection</span></h2>
+                  <div className="spacer-20"></div>
+              </div>
+              <div className="col-lg-6 text-lg-end">
+                  <Link className="btn-main mb-sm-30" href="#">View all games</Link>
+              </div>
+            </div>
+            </div>
+          <Collection/>
+        </section>
+      </Parallax>
+
+      {/* section */}
+      <section className="no-padding">
+      <div className="container">
+            <div className="row">
+                <div className="col-lg-6">                            
+                    <div className="subtitle  mb-3"
+                    data-aos="fade-up"
+                  data-aos-delay="0"
+                  data-aos-duration="600"
+                  data-aos-easing="ease"
+                  data-aos-once="true">Do you have</div>
+                    <h2 className=" mb20"
+                    data-aos="fade-up"
+                  data-aos-delay="150"
+                  data-aos-duration="600"
+                  data-aos-easing="ease"
+                  data-aos-once="true">Any <span className="text-gradient">questions?</span> </h2>
+                </div>
+            </div>
+        </div>
+        <Help/>
+      </section>
+
+      {/* section */}
       <section>
-        <Section1/>
+        <Payment/>
       </section>
 
       {/* footer */}

@@ -36,8 +36,8 @@ const Section = () => {
                   data-aos-easing="ease" data-aos-delay="100" >
                     <div>
                         <Image src={image1} className="mb20" alt=""/>
-                        <h4>Lightning-Fast Setup</h4>
-                        <p>Get your game server up and running in under 5 minutes with our automated deployment system. No technical knowledge required - just choose your game and start playing immediately.</p>
+                        <h4>Super Quick Setup</h4>
+                        <p>Dolor minim in pariatur in deserunt laboris eu pariatur labore excepteur cupidatat cupidatat duis dolor in.</p>
                     </div>
                 </div>
 
@@ -45,8 +45,8 @@ const Section = () => {
                   data-aos-easing="ease" data-aos-delay="300">
                     <div>
                         <Image src={image2} className="mb20" alt=""/>
-                        <h4>Enterprise-Grade Hardware</h4>
-                        <p>Powered by the latest Intel Xeon processors and NVMe SSDs, our servers deliver exceptional performance with 99.9% uptime guarantee for uninterrupted gaming sessions.</p>
+                        <h4>Premium Hardware</h4>
+                        <p>Dolor minim in pariatur in deserunt laboris eu pariatur labore excepteur cupidatat cupidatat duis dolor in.</p>
                     </div>
                 </div>
 
@@ -54,8 +54,8 @@ const Section = () => {
                   data-aos-easing="ease" data-aos-delay="500">
                     <div>
                         <Image src={image3} className="mb20" alt=""/>
-                        <h4>Advanced DDoS Protection</h4>
-                        <p>Stay protected with our enterprise-level DDoS mitigation that automatically detects and blocks attacks, ensuring your server remains online and accessible at all times.</p>
+                        <h4>DDos Protection</h4>
+                        <p>Dolor minim in pariatur in deserunt laboris eu pariatur labore excepteur cupidatat cupidatat duis dolor in.</p>
                     </div>
                 </div>
 
@@ -63,8 +63,8 @@ const Section = () => {
                   data-aos-easing="ease" data-aos-delay="700">
                     <div>
                          <Image src={image4} className="mb20" alt=""/>
-                        <h4>24/7 UK-Based Support</h4>
-                        <p>Our dedicated support team in London is available round the clock to help with any questions or issues. Get instant assistance via live chat, email, or phone.</p>
+                        <h4>Fast Support</h4>
+                        <p>Dolor minim in pariatur in deserunt laboris eu pariatur labore excepteur cupidatat cupidatat duis dolor in.</p>
                     </div>
                 </div>
             </div>

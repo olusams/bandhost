@@ -5,6 +5,8 @@ import { Parallax } from "react-parallax";
 import { Link } from "react-scroll";
 import Navbar from '../../component/layout/Navbar';
 import Preloader from '../../component/layout/preloader';
+import Location from '../../component/section-pages/Location';
+import Section2 from '../../component/section-pages/section-2';
 import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
@@ -51,13 +53,13 @@ export default function Home() {
         <div className="de-gradient-edge-top"></div>
         <div className="de-gradient-edge-bottom"></div>
         <section className="no-bg">
-          {/* <Location/> Removed as the file does not exist */}
+          <Location/>
         </section>
       </Parallax>
 
       {/* section */}
       <section className="">
-        {/* <Section2/> Removed as the file does not exist */}
+        <Section2/>
       </section>
 
       {/* footer */}

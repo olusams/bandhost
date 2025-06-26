@@ -5,7 +5,7 @@ import { Parallax } from "react-parallax";
 import { Link } from "react-scroll";
 import Navbar from '../../component/layout/Navbar';
 import Preloader from '../../component/layout/preloader';
-import Section1 from '../../component/section-pages/section-1';
+import Help from '../../component/section-pages/help-no-title';
 import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
@@ -65,7 +65,7 @@ export default function Home() {
 
       {/* section */}
       <section>
-        <Section1/>
+        <Help/>
       </section>
 
       {/* footer */}

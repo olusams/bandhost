@@ -13,12 +13,13 @@ const footer = () => {
                     <div className="col-lg-4">
                         <Image src={image1} alt="" />
                         <div className="spacer-20"></div>
-                        <p>Playhost is London's premier game server hosting provider, delivering lightning-fast performance and exceptional reliability. Our enterprise-grade infrastructure ensures your gaming experience is always optimal, with 24/7 UK-based support ready to assist you every step of the way.</p>
+                        <p>Leeds Gaming Hub is Yorkshire's premier gaming community, located in the heart of Leeds. We provide state-of-the-art gaming facilities, tournaments, and a welcoming community for gamers of all skill levels.</p>
                         <div className="spacer-20"></div>
-                        <div className="contact-info">
-                            <p><i className="fa fa-phone"></i> <strong>+44 (0) 20 7946 0958</strong></p>
-                            <p><i className="fa fa-map-marker"></i> <strong>London, United Kingdom</strong></p>
-                            <p><i className="fa fa-envelope"></i> <strong>support@playhost.co.uk</strong></p>
+                        <div className="widget">
+                            <h5>Contact Info</h5>
+                            <p><i className="fa fa-map-marker"></i> 123 Gaming Street, Leeds LS1 1AA</p>
+                            <p><i className="fa fa-phone"></i> 0113 282 7946</p>
+                            <p><i className="fa fa-envelope"></i> info@leedsgaminghub.co.uk</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -38,14 +39,14 @@ const footer = () => {
                             </div>
                             <div className="col-lg-6 col-sm-6">
                                 <div className="widget">
-                                    <h5>Pages</h5>
+                                    <h5>Gaming Services</h5>
                                     <ul>
-                                        <li><Link href="#">Game Server</Link></li>
-                                        <li><Link href="#">Knowledgebase</Link></li>
-                                        <li><Link href="#">About Us</Link></li>
-                                        <li><Link href="#">Affliates</Link></li>
-                                        <li><Link href="#">Locations</Link></li>
-                                        <li><Link href="#">News</Link></li>
+                                        <li><Link href="#">Tournaments</Link></li>
+                                        <li><Link href="#">LAN Gaming</Link></li>
+                                        <li><Link href="#">Gaming Academy</Link></li>
+                                        <li><Link href="#">Equipment Rental</Link></li>
+                                        <li><Link href="#">Team Building</Link></li>
+                                        <li><Link href="#">Esports Training</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -81,7 +82,7 @@ const footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-sm-6">
-                           Copyright {currentYear} - Playhost by Designesia
+                           Copyright {currentYear} - Leeds Gaming Hub. All rights reserved.
                         </div>
                         <div className="col-lg-6 col-sm-6 text-lg-end text-sm-start">
                             <ul className="menu-simple">

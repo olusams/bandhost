@@ -1,5 +1,9 @@
 import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/a11y';
 import Link from 'next/link';
 
 const image1 ="../img/slider/4.webp";
@@ -55,7 +59,7 @@ const Slider = () => {
                                                         <div className="col-lg-8">                                    
                                                             <div className="subtitle blink mb-4">Servers Are Available</div>
                                                             <h1 className="slider-title text-uppercase mb-1">Funk Dungeon</h1>
-                                                            <p className="slider-text">Dive into the rhythmic world of Funk Dungeon with our optimized servers. Experience smooth gameplay with our London-based infrastructure and 24/7 UK support team ready to help you create the perfect gaming environment.</p>
+                                                            <p className="slider-text">Aute esse non magna elit dolore dolore dolor sit est. Ea occaecat ea duis laborum reprehenderit id cillum tempor cupidatat qui nisi proident nostrud dolore.</p>
                                                         </div>
 
                                                             <div className="col-lg-4">
@@ -64,7 +68,7 @@ const Slider = () => {
                                                                     Starting at
                                                                 </div>
                                                                 <div className="d-price">
-                                                                    <span className="d-cur">£</span>
+                                                                    <span className="d-cur">$</span>
                                                                     <span className="d-val">15.99</span>
                                                                     <span className="d-period">/monthly</span>
                                                                 </div>
@@ -121,7 +125,7 @@ const Slider = () => {
                                                         <div className="col-lg-8">                                    
                                                             <div className="subtitle blink mb-4">Servers Are Available</div>
                                                             <h1 className="slider-title text-uppercase mb-1">Ancient Realms</h1>
-                                                            <p className="slider-text">Embark on epic adventures in Ancient Realms with our high-performance servers. Our enterprise-grade hardware and advanced DDoS protection ensure your gaming community stays connected and protected at all times.</p>
+                                                            <p className="slider-text">Aute esse non magna elit dolore dolore dolor sit est. Ea occaecat ea duis laborum reprehenderit id cillum tempor cupidatat qui nisi proident nostrud dolore.</p>
                                                         </div>
 
                                                             <div className="col-lg-4">
@@ -130,7 +134,7 @@ const Slider = () => {
                                                                     Starting at
                                                                 </div>
                                                                 <div className="d-price">
-                                                                    <span className="d-cur">£</span>
+                                                                    <span className="d-cur">$</span>
                                                                     <span className="d-val">12.99</span>
                                                                     <span className="d-period">/monthly</span>
                                                                 </div>
@@ -187,7 +191,7 @@ const Slider = () => {
                                                         <div className="col-lg-8">                                    
                                                             <div className="subtitle blink mb-4">Servers Are Available</div>
                                                             <h1 className="slider-title text-uppercase mb-1">Galactic Odyssey</h1>
-                                                            <p className="slider-text">Explore the vast universe of Galactic Odyssey with our premium hosting. Get your server up and running in minutes with our automated setup system and enjoy seamless gameplay with minimal latency.</p>
+                                                            <p className="slider-text">Aute esse non magna elit dolore dolore dolor sit est. Ea occaecat ea duis laborum reprehenderit id cillum tempor cupidatat qui nisi proident nostrud dolore.</p>
                                                         </div>
 
                                                             <div className="col-lg-4">
@@ -196,7 +200,7 @@ const Slider = () => {
                                                                     Starting at
                                                                 </div>
                                                                 <div className="d-price">
-                                                                    <span className="d-cur">£</span>
+                                                                    <span className="d-cur">$</span>
                                                                     <span className="d-val">9.99</span>
                                                                     <span className="d-period">/monthly</span>
                                                                 </div>
@@ -253,7 +257,7 @@ const Slider = () => {
                                                         <div className="col-lg-8">                                    
                                                             <div className="subtitle blink mb-4">Servers Are Available</div>
                                                             <h1 className="slider-title text-uppercase mb-1">Thunder and City</h1>
-                                                            <p className="slider-text">Race to victory in Thunder and City with our optimized servers. Our London-based data center provides optimal performance for UK and European players with 99.9% uptime guarantee.</p>
+                                                            <p className="slider-text">Aute esse non magna elit dolore dolore dolor sit est. Ea occaecat ea duis laborum reprehenderit id cillum tempor cupidatat qui nisi proident nostrud dolore.</p>
                                                         </div>
 
                                                             <div className="col-lg-4">
@@ -262,8 +266,8 @@ const Slider = () => {
                                                                     Starting at
                                                                 </div>
                                                                 <div className="d-price">
-                                                                    <span className="d-cur">£</span>
-                                                                    <span className="d-val">14.99</span>
+                                                                    <span className="d-cur">$</span>
+                                                                    <span className="d-val">12.99</span>
                                                                     <span className="d-period">/monthly</span>
                                                                 </div>
 

@@ -2,25 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
-  async redirects() {
-    return [
-      {
-        source: '/home',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/index',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/index.html',
-        destination: '/',
-        permanent: true,
-      },
-    ];
-  },
   webpack: (config, { webpack }) => {
     config.plugins.push(
       new webpack.ProvidePlugin({

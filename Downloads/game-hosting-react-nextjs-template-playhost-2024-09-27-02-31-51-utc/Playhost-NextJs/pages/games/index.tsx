@@ -6,11 +6,17 @@ import { Link } from "react-scroll";
 import Navbar from '../../component/layout/Navbar';
 import Preloader from '../../component/layout/preloader';
 import Contact from '../../component/section-pages/contact';
+import Collection from '../../component/section-pages/Collection';
+import Help from '../../component/section-pages/help';
 import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
-import Section1 from '../../component/section-pages/section-1';
+import { createGlobalStyle } from 'styled-components';
 
 const image1 ="../../img/background/3.webp";
+
+const GlobalStyles = createGlobalStyle`
+
+`;
 
 export default function Home() {
   useEffect(() => {
@@ -30,6 +36,8 @@ export default function Home() {
       <link rel="icon" href="../img/icon.png" type="image/gif" sizes="16x16"/>
     </Head>
 
+    <GlobalStyles/>
+
     {/* LOADER */}
     <div id='mainpreloader'>
       <Preloader/>
@@ -46,13 +54,13 @@ export default function Home() {
         <div className="de-gradient-edge-top"></div>
         <div className="de-gradient-edge-bottom"></div>
         <section className="no-bg">
-          <Section1/>
+          <Collection/>
         </section>
       </Parallax>
 
       {/* section */}
       <section className="no-top">
-        <Contact/>
+        <Help/>
       </section>
 
       {/* footer */}

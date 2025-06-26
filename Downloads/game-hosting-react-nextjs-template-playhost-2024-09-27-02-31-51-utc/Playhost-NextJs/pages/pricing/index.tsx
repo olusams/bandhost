@@ -5,7 +5,7 @@ import { Parallax } from "react-parallax";
 import { Link } from "react-scroll";
 import Navbar from '../../component/layout/Navbar';
 import Preloader from '../../component/layout/preloader';
-import Pricelist from '../../component/section-pages/pricelist';
+import Pricelist from '../../component/section-pages/pricelist-1';
 import Section1 from '../../component/section-pages/section-1';
 import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';

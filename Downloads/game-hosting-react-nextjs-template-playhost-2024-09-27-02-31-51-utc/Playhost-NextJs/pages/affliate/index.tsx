@@ -71,22 +71,22 @@ export default function Home() {
                   <div className="col-lg-4 mb30">
                       <div className="de-step-s1">
                           <div className="d-number">1</div>
-                          <h4>Join Our Affiliate Program</h4>
-                          <p className="">Sign up for our affiliate program and start earning commissions by promoting London&apos;s premier game hosting service. Share your unique referral link with your gaming community and earn 10% commission on every successful referral.</p>
+                          <h4>Join for Affiliate Program</h4>
+                          <p className="">Amet amet enim reprehenderit et ullamco tempor minim reprehenderit amet cupidatat ullamco ut magna enim ad commodo nisi exercitation quis reprehenderit anim et ad aute officia dolor amet dolore dolore.</p>
                       </div>
                   </div>
                   <div className="col-lg-4 mb30">
                       <div className="de-step-s1">
                           <div className="d-number">2</div>
-                          <h4>Promote Our Game Hosting</h4>
-                          <p className="">Share our high-performance game servers with your audience. Whether you&apos;re a content creator, gaming community leader, or tech reviewer, help gamers discover reliable hosting with 24/7 UK-based support and enterprise-grade infrastructure.</p>
+                          <h4>Promote Our Website</h4>
+                          <p className="">Amet amet enim reprehenderit et ullamco tempor minim reprehenderit amet cupidatat ullamco ut magna enim ad commodo nisi exercitation quis reprehenderit anim et ad aute officia dolor amet dolore dolore.</p>
                       </div>
                   </div>
                   <div className="col-lg-4 mb30">
                       <div className="de-step-s1">
                           <div className="d-number">3</div>
-                          <h4>Earn Your Commission</h4>
-                          <p className="">Get paid monthly for every customer you refer. Our transparent commission structure ensures you earn 10% on all hosting plans, with payments processed directly to your account. Track your earnings through our affiliate dashboard.</p>
+                          <h4>Get Your Commision</h4>
+                          <p className="">Amet amet enim reprehenderit et ullamco tempor minim reprehenderit amet cupidatat ullamco ut magna enim ad commodo nisi exercitation quis reprehenderit anim et ad aute officia dolor amet dolore dolore.</p>
                       </div>
                   </div>
               </div>

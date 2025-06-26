@@ -64,7 +64,7 @@ export default function Contactus() {
                                         
                                             <div className="field-set">
                                                 <span className="d-label">Phone</span>
-                                                <input type="text" name="phone" id="phone" className="form-control" placeholder="+44 (0) 20 7946 0958" required/>
+                                                <input type="text" name="phone" id="phone" className="form-control" placeholder="Your Phone" required/>
                                             </div>
                                         </div>
 

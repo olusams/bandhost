@@ -23,7 +23,7 @@
     "eslint-config-next": "13.2.3",
     "et-line": "^1.0.1",
     "font-awesome": "^4.7.0",
-    "next": "^13.5.6",
+    "next": "^15.3.4",
     "react": "18.2.0",
     "react-cool-onclickoutside": "^1.7.0",
     "react-dom": "18.2.0",
@@ -35,7 +35,7 @@
     "react-youtube": "^10.1.0",
     "sass": "^1.58.3",
     "styled-components": "^5.1.26",
-    "swiper": "^10.0.0",
+    "swiper": "^11.2.8",
     "typescript": "4.9.5"
   },
   "devDependencies": {

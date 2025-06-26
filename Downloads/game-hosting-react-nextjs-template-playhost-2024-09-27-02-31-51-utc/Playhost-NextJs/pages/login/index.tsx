@@ -5,6 +5,7 @@ import { Parallax } from "react-parallax";
 import { Link } from "react-scroll";
 import Navbar from '../../component/layout/Navbar';
 import Preloader from '../../component/layout/preloader';
+import Blog from '../../component/section-pages/Blog-no-title';
 import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';

@@ -1,5 +1,10 @@
 import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+import 'swiper/css/a11y';
 import Link from 'next/link';
 
 const image1 ="../img/slider/creative-1.webp";

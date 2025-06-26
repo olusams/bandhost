@@ -5,7 +5,7 @@ import { Parallax } from "react-parallax";
 import { Link } from "react-scroll";
 import Navbar from '../../component/layout/Navbar';
 import Preloader from '../../component/layout/preloader';
-import Section1 from '../../component/section-pages/section-1';
+import Reviews from '../../component/section-pages/CustomerReviews';
 import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
@@ -70,7 +70,31 @@ export default function Home() {
 
       {/* section */}
       <section>
-        <Section1/>
+        <div className="container">
+              <div className="row align-items-center gh-5">
+                  <div className="col-lg-6 position-relative">
+                      <div className="images-deco-1">
+                          <Image src={image2} className="d-img-1" alt=""/>
+                          <Image src={image3} className="d-img-2" alt=""/>
+                          <div className="d-img-3 bg-color"></div>
+                      </div>
+                  </div>
+                  <div className="col-lg-6">
+                      <div className="subtitle mb20">We are Playhost</div>
+                      <h2 >The beginning</h2>
+                      <p >Lorem ipsum ea ut magna nisi amet reprehenderit eu 
+                      adipisicing nisi incididunt est sint fugiat deserunt tempor ea culpa nostrud 
+                      commodo deserunt et do ullamco non tempor veniam id culpa mollit veniam ut
+                      non adipisicing ad commodo laborum esse do sunt in cillum irure incididunt 
+                      officia quis ut.
+                      </p>
+                      <div className="year-card ">
+                          <h1><span className="id-color">25</span></h1>
+                          <div className="atr-desc">Years<br/>Experience<br/>Hosting</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </section>
 
       {/* section */}
@@ -80,12 +104,12 @@ export default function Home() {
                 <div className="col-lg-8 offset-lg-2">
                     <div className="row gx-5">
                         <div className="col-lg-6 col-md-6">
-                            <h4>The Beginning</h4>
-                            <p>Founded in 2018 in the heart of London, Playhost began with a simple mission: to provide gamers with the highest quality server hosting experience. What started as a small team of passionate gamers has grown into one of the UK&apos;s most trusted game server hosting providers, serving thousands of satisfied customers across Europe.</p>
+                            <h4>Our Vision</h4>
+                            <p>Adipisicing pariatur dolor pariatur officia aliqua ex irure aliqua ut exercitation nulla exercitation esse duis do commodo exercitation sed exercitation aliquip fugiat. Dolor ad amet sed aliqua ad nisi anim fugiat dolor labore ex non amet id mollit amet id magna elit fugiat voluptate aliquip in est quis aliquip aliqua eu. Lorem ipsum irure sed nisi id aute exercitation fugiat.</p>
                         </div>
                         <div className="col-lg-6 col-md-6">
                             <h4>Our Mission</h4>
-                            <p>We&apos;re committed to delivering exceptional gaming experiences through cutting-edge technology and unparalleled customer support. Our London-based infrastructure ensures optimal performance for UK and European gamers, while our 24/7 support team is always ready to help you get the most out of your gaming server.</p>
+                            <p>Adipisicing pariatur dolor pariatur officia aliqua ex irure aliqua ut exercitation nulla exercitation esse duis do commodo exercitation sed exercitation aliquip fugiat. Ut excepteur deserunt labore exercitation commodo exercitation minim aliquip in aliqua deserunt nulla aliquip officia ut eiusmod irure ullamco sunt sunt velit dolor ex. Enim eu proident in non officia culpa.</p>
                         </div>
                     </div>
                 </div>
@@ -173,6 +197,11 @@ export default function Home() {
 
           </div>
         </div>
+      </section>
+
+      {/* section */}
+      <section className="no-top">
+       <Reviews/>
       </section>
 
       {/* section */}

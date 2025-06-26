@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Navigation, Pagination, Autoplay, A11y, Thumbs, FreeMode } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/thumbs';
+import 'swiper/css/free-mode';
 import Link from 'next/link';
 
 const image1 ="../../img/slider/5.webp";
@@ -37,7 +42,7 @@ const YourComponent = () => {
                             <h1 className="slider-title text-uppercase mb-1">Cyber Nexus</h1>
                         </div>
                         <div className="col-lg-6 mx-auto">
-                            <p className="slider-text">Experience the future of gaming with Cyber Nexus. Our high-performance servers deliver lightning-fast gameplay with advanced DDoS protection and 24/7 UK-based support for the ultimate gaming experience.</p>
+                            <p className="slider-text">Aute esse non magna elit dolore dolore dolor sit est. Ea occaecat ea duis laborum reprehenderit id cillum tempor cupidatat qui nisi proident nostrud dolore.</p>
                             <div className="spacer-10"></div>
                             <Link className="btn-main mb10" href="#">Order Your Game Server Now</Link>
                         </div>
@@ -61,7 +66,7 @@ const YourComponent = () => {
                             <h1 className="slider-title text-uppercase mb-1">Ancient Realms</h1>
                         </div>
                         <div className="col-lg-6 mx-auto">
-                            <p className="slider-text">Embark on epic adventures in Ancient Realms. Our London-based infrastructure ensures minimal latency for European players, with enterprise-grade hardware and automated backups for your peace of mind.</p>
+                            <p className="slider-text">Aute esse non magna elit dolore dolore dolor sit est. Ea occaecat ea duis laborum reprehenderit id cillum tempor cupidatat qui nisi proident nostrud dolore.</p>
                             <div className="spacer-10"></div>
                             <Link className="btn-main mb10" href="#">Order Your Game Server Now</Link>
                         </div>
@@ -85,7 +90,7 @@ const YourComponent = () => {
                             <h1 className="slider-title text-uppercase mb-1">Thunder and City</h1>
                         </div>
                         <div className="col-lg-6 mx-auto">
-                            <p className="slider-text">Race to victory in Thunder and City with our optimized servers. Get your game server up and running in under 5 minutes with our automated setup system and dedicated support team.</p>
+                            <p className="slider-text">Aute esse non magna elit dolore dolore dolor sit est. Ea occaecat ea duis laborum reprehenderit id cillum tempor cupidatat qui nisi proident nostrud dolore.</p>
                             <div className="spacer-10"></div>
                             <Link className="btn-main mb10" href="#">Order Your Game Server Now</Link>
                         </div>
@@ -109,7 +114,7 @@ const YourComponent = () => {
                             <h1 className="slider-title text-uppercase mb-1">Raceway Revolution</h1>
                         </div>
                         <div className="col-lg-6 mx-auto">
-                            <p className="slider-text">Revolutionize your racing experience with Raceway Revolution. Our premium hosting includes integrated voice chat, automated backups, and 99.9% uptime guarantee for uninterrupted competition.</p>
+                            <p className="slider-text">Aute esse non magna elit dolore dolore dolor sit est. Ea occaecat ea duis laborum reprehenderit id cillum tempor cupidatat qui nisi proident nostrud dolore.</p>
                             <div className="spacer-10"></div>
                             <Link className="btn-main mb10" href="#">Order Your Game Server Now</Link>
                         </div>

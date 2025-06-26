@@ -5,12 +5,24 @@ import { Parallax } from "react-parallax";
 import { Link } from "react-scroll";
 import Navbar from '../../component/layout/Navbar';
 import Preloader from '../../component/layout/preloader';
-import Section1 from '../../component/section-pages/section-1';
+import Homestatic from '../../component/section-pages/homestatic-video';
+import Section1 from '../../component/section-pages/section-1-center';
+import Location from '../../component/section-pages/Location-center';
 import Contact from '../../component/section-pages/contact';
+import Pricelist from '../../component/section-pages/pricelist-center';
+import Collection from '../../component/section-pages/Collection-center';
+import Help from '../../component/section-pages/help-center';
+import Blog from '../../component/section-pages/Blog';
+import Payment from '../../component/section-pages/Payment';
 import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
+import { createGlobalStyle } from 'styled-components';
 
 const image1 ="../../img/background/3.webp";
+
+const GlobalStyles = createGlobalStyle`
+  
+`;
 
 export default function Home() {
   useEffect(() => {
@@ -30,6 +42,8 @@ export default function Home() {
       <link rel="icon" href="../img/icon.png" type="image/gif" sizes="16x16"/>
     </Head>
 
+    <GlobalStyles/>
+
     {/* LOADER */}
     <div id='mainpreloader'>
       <Preloader/>
@@ -41,6 +55,11 @@ export default function Home() {
          <Navbar />
       </header>
 
+      {/* home static */}
+      <section className="no-padding">
+        <Homestatic/>
+      </section>
+
       {/* section */}
       <section className="no-bottom tex-center">
         <Section1/>
@@ -48,7 +67,32 @@ export default function Home() {
 
       {/* section */}
       <section className="no-bottom">
-        <Contact/>
+        <Pricelist/>
+      </section>
+
+      {/* section */}
+      <section className="no-bottom">
+        <Collection/>
+      </section>
+
+      {/* section */}
+      <section className="no-bottom">
+        <Location/>
+      </section>
+
+      {/* section */}
+      <section className="no-bottom">
+        <Help/>
+      </section>
+
+      {/* section */}
+      <section className="no-bottom">
+        <Blog/>
+      </section>
+
+      {/* section */}
+      <section className="">
+        <Payment/>
       </section>
 
       {/* footer */}

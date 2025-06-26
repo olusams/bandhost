@@ -17,7 +17,7 @@ const footer = () => {
                         <div className="spacer-20"></div>
                         <div className="widget">
                             <h5>Contact Info</h5>
-                            <p><i className="fa fa-map-marker"></i> 123 Gaming Street, Leeds LS1 1AA</p>
+                            <p><i className="fa fa-map-marker"></i> 37 Albion Street, Leeds, West Yorkshire</p>
                             <p><i className="fa fa-phone"></i> 0113 282 7946</p>
                             <p><i className="fa fa-envelope"></i> info@leedsgaminghub.co.uk</p>
                         </div>

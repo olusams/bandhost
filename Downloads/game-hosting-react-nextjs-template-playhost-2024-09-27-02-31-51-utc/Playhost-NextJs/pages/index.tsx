@@ -45,8 +45,8 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Leeds Gaming Hub - Yorkshire's Premier Gaming Community</title>
-      <meta name="description" content="Leeds Gaming Hub - Yorkshire's premier gaming community. Join us for tournaments, LAN parties, and gaming events in the heart of Leeds." />
+      <title>Leeds Gaming Hub - Yorkshire&apos;s Premier Gaming Community</title>
+      <meta name="description" content="Leeds Gaming Hub - Yorkshire&apos;s premier gaming community. Join us for tournaments, LAN parties, and gaming events in the heart of Leeds." />
       <link rel="icon" href="./img/icon.png" type="image/gif" sizes="16x16"/>
     </Head>
 

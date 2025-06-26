@@ -81,13 +81,14 @@ export default function Home() {
           setTimeout(() => {
             loader.classList.add("fadeOut");
             loader.style.display = 'none';
-          }, 600)
+          }, 100)
       }
       Aos.init({
-        duration: 800,
+        duration: 400,
         easing: 'ease-in-out-sine',
         delay: 0,
-        mirror: true
+        mirror: false,
+        once: true
       });
     }, []);
   return (

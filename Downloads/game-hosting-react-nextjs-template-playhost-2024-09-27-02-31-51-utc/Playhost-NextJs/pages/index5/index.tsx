@@ -31,7 +31,7 @@ export default function Home() {
           setTimeout(() => {
             loader.classList.add("fadeOut");
             loader.style.display = 'none';
-          }, 600)
+          }, 100)
       }
     }, []);
   return (

@@ -30,6 +30,51 @@
   to = "/pricing/index.html"
   status = 200
 
+[[redirects]]
+  from = "/pricing2"
+  to = "/pricing2/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/pricing3"
+  to = "/pricing3/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/news"
+  to = "/news/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/faq"
+  to = "/faq/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/location"
+  to = "/location/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/login"
+  to = "/login/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/register"
+  to = "/register/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/knowledgebase"
+  to = "/knowledgebase/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/affliate"
+  to = "/affliate/index.html"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]

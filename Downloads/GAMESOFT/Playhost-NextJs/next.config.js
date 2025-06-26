@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  trailingSlash: true,
   output: 'export',
   distDir: 'out',
+  basePath: '',
+  assetPrefix: '',
   webpack: (config, { webpack }) => {
     config.plugins.push(
       new webpack.ProvidePlugin({

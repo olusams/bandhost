@@ -5,9 +5,11 @@ import { Parallax } from "react-parallax";
 import { Link } from "react-scroll";
 import Navbar from '../component/layout/Navbar';
 import Preloader from '../component/layout/preloader';
-import SwiperComponent from '../component/section-pages/slider-home';
-import Section1 from '../component/section-pages/section-1';
+import SwiperComponent from '../component/section-pages/slider';
+import Sectioncol from '../component/section-pages/section-3col';
+import Location from '../component/section-pages/Location';
 import Section2 from '../component/section-pages/section-2';
+import Section1 from '../component/section-pages/section-1';
 import Reviews from '../component/section-pages/CustomerReviews';
 import Contact from '../component/section-pages/contact';
 import Servers from '../component/section-pages/Server';
@@ -20,7 +22,6 @@ import ScrollToTopBtn from '../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
 
 const image1 ="./img/background/3.webp";
-const image2 ="./img/background/2.webp";
 
 const GlobalStyles = createGlobalStyle`
   .navbar-brand .imginit{
@@ -70,25 +71,10 @@ export default function Home() {
 
       {/* section 1 */}
       <section className="no-bottom">
-        <Section1/>
+        <Sectioncol/>
       </section>
 
-      {/* section 2 */}
-      <section className="no-bottom">
-        <Section2/>
-      </section>
-
-      {/* section 3 */}
-      <section className="no-bottom">
-        <Reviews/>
-      </section>
-
-      {/* section 4 */}
-      <section className="no-bottom">
-        <Servers/>
-      </section>
-
-      {/* section 5 */}
+      {/* section */}
       <Parallax className="" bgImage={image1} strength={300}>  
         <div className="de-gradient-edge-top"></div>
         <div className="de-gradient-edge-bottom"></div>
@@ -97,17 +83,27 @@ export default function Home() {
         </section>
       </Parallax>
 
-      {/* section 6 */}
+      {/* section */}
+      <section className="no-bottom">
+        <Location/>
+      </section>
+
+      {/* section */}
+      <section className="no-bottom">
+        <Section1/>
+      </section>
+
+      {/* section */}
+      <section className="">
+        <Download/>
+      </section>
+
+      {/* section */}
       <section className="no-top no-bottom">
         <Help/>
       </section>
 
-      {/* section 7 */}
-      <section className="no-bottom">
-        <Download/>
-      </section>
-
-      {/* section 8 */}
+      {/* section */}
       <section className="">
         <Payment/>
       </section>

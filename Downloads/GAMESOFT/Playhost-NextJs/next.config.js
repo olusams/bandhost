@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  trailingSlash: true,
   output: 'export',
-  distDir: 'out',
-  basePath: '',
-  assetPrefix: '',
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
   webpack: (config, { webpack }) => {
     config.plugins.push(
       new webpack.ProvidePlugin({
@@ -15,9 +15,6 @@ const nextConfig = {
       })
     );
     return config;
-  },
-  images: {
-    unoptimized: true, //will change to false later
   },
 }
 
